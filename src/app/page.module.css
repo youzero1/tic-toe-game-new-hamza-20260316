@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #e94560, #0f3460);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+}
